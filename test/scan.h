@@ -205,7 +205,7 @@ struct scan_handler : error_handler {
     }
     case scan_type::none_type:
     case scan_type::custom_type:
-      assert(false);
+      throw false;assert(false);
     }
   }
 
